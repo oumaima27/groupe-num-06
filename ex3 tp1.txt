@@ -1,0 +1,19 @@
+<!DOCTYPE HTML >
+<html>
+<head>
+	<title> table élève  </title>
+	
+	<script type="text/javascript">
+Function créereleve (prénom,note,photo)
+[
+This .prénom=prénom ;
+This.note=note;
+This . photo=photo;
+]
+Var note =New créereleve ("8","9","11");
+Var prénom =New créereleve ("tati"," titi","tata");
+Var photo=New créereleve ;
+
+
+	</script>
+</head>
