@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <style>
+      table,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <title>Tableau de notes</title>
+  </head>
+  <body>
+    <h1>Tableau</h1>
+    <button onclick="Affiche()">Afficher les notes</button>
+    <div>
+      <p>Tableau de depart :</p>
+      <table id="notes" > 
+        <tbody>
+            <tr id="roww">
+                
+            </tr>
+        </tbody>
+      </table> <br>
+      <button onclick="Sup()">Afficher nombre eleves</button>
+      <p id="nbrr"></p>
+      <br>
+      <button onclick="Moyenne()">Afficher moyenne des notes</button>
+      <p id="moyy"></p>
+      <br>
+      <button onclick="Max()">Afficher la note maximale</button>
+      <p id="max"></p>
+      <br>
+      <button onclick="Recherche()">Chercher une note </button>
+      <p id="X"></p>
+      <button onclick="Tri()">Trier le tableau </button>
+      <table>
+          <tbody>
+              <tr id="tri">
+
+              </tr>
+          </tbody>
+      </table>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
